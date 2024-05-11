@@ -49,7 +49,7 @@
     align-items: center;
     gap: 30px;
 }
-input::placeholder{
+.track-delivery input::placeholder{
     color: #ebebeb;
 }
 .track-delivery input{
@@ -62,6 +62,12 @@ input::placeholder{
 .cost-of-delivery{
     padding-left: 20%;
     padding-right: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.transportation{
+    background: #e4edf9;
+    padding: 10px 20%;
     justify-content: center;
     align-items: center;
 }
@@ -84,61 +90,45 @@ input::placeholder{
 }
 .section2 tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
-  }
-/*.price-list{*/
-/*    display: grid;*/
-/*    grid-template-rows: repeat(2, 1fr);*/
-/*    gap: 200px;*/
-/*}*/
-
-/*.member > p{*/
-/*    font-weight: bolder;*/
-/*    font-size: 20px;*/
-/*    margin-bottom: 0;*/
-/*}*/
-/*.new{*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(2, 1fr);*/
-/*}*/
-/*.footer-sider{*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(3, 1fr);*/
-/*    justify-content: space-evenly;*/
-/*}*/
-/*.footer-sider > p{*/
-/*    display: block;*/
-/*}*/
-/*.image{*/
-/*    position: relative;*/
-/*    left: 205px;*/
-/*    top: -27px;*/
-/*}*/
-/*.member2{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    gap: 20px*/
-/*}*/
-/*.section3{*/
-/*    display: flex;*/
-/*    gap: 40px;*/
-/*    padding: 10%;*/
-/*}*/
-/*.footer{*/
-/*    background: #263238;*/
-/*    padding: 4% 0;*/
-/*    display: flex;*/
-/*    color: white;*/
-/*    justify-content: space-around;*/
-/*    gap: 20%;*/
-
-/*}*/
-
-/*.section4{*/
-/*    display: flex;*/
-/*    gap: 40px;*/
-/*    padding: 10%;*/
-/*}*/
+}
+.section3{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    padding: 0%;
+}
+.guarantee{
+    padding-top: 100px;
+}
+.footer{
+    background: #263238;
+    padding: 2% 0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+}
+.footer-sider{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.input2{
+    width: 88%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background: #5cb30b;
+    color: whitesmoke;
+}
+.footer input::placeholder{
+    color: whitesmoke;
+}
+.image{
+    position: relative;
+    left: 165px;
+    top: -27px;
+}
 /*@media only screen and (max-width: 728px) {*/
 /*    .nav{*/
 /*        display: none;*/
